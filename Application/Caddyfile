@@ -1,0 +1,8 @@
+184.72.122.111:3000/.nip.io {
+
+    reverse_proxy node-app:3000 {
+
+        header_down Strict-Transport-Security max-age=31536000;
+
+}
+}
