@@ -1,4 +1,4 @@
-184.72.122.111:3000/.nip.io {
+172.31.83.94:3000/.nip.io {
 
     reverse_proxy node-app:3000 {
 

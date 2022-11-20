@@ -27,7 +27,7 @@ services:
     image: caddy:latest
     restart: unless-stopped
     ports:
-      - "80:80"
+      - "8080:8080"
       - "443:443"
     volumes:
       - $PWD/site:/srv
